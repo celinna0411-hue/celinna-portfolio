@@ -1,0 +1,12 @@
+{
+  "name": "celinna-autumn-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Celinna 2026 autumn recruitment portfolio - deployable static site",
+  "scripts": {
+    "dev": "npx serve .",
+    "preview": "npx serve ."
+  },
+  "keywords": ["portfolio", "static-site", "visual-design", "aso"],
+  "license": "UNLICENSED"
+}
