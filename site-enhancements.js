@@ -9,9 +9,4 @@ document.addEventListener('DOMContentLoaded', () => {
     const tag = document.querySelector(`#${id} .tag`);
     if (tag) tag.textContent = text;
   });
-
-  document.querySelectorAll('img').forEach((image, index) => {
-    image.decoding = 'async';
-    if (index > 0) image.loading = 'lazy';
-  });
 });
