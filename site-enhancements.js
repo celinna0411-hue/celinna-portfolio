@@ -9,4 +9,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const tag = document.querySelector(`#${id} .tag`);
     if (tag) tag.textContent = text;
   });
+
+  document.querySelectorAll('#project-03 .goods-gif-row img').forEach((image) => {
+    image.src = `${image.getAttribute('src')}?v=2`;
+  });
 });
